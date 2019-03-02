@@ -135,7 +135,7 @@ dat <- expand.grid(y=1:rows, x=seq_len(pad + (ceiling(sum(parts) / rows))))
     gg <- gg + geom_tile(color="#00000000", fill="#00000000", size=size, alpha=0, show.legend=FALSE)
     gg <- gg + geom_point(aes(color=value), fill="#00000000", size=0, show.legend=TRUE)
     gg <- gg + geom_text(aes(color=value,label=fontlab),
-                         family="FontAwesome", size=glyph_size, show.legend=FALSE)
+                         family="Font Awesome 5 Free Regular", size=glyph_size, show.legend=FALSE)
     gg <- gg + scale_color_manual(name="",
                                  values=colors,
                                  labels=part_names,
