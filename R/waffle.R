@@ -117,7 +117,7 @@ dat <- expand.grid(y=1:rows, x=seq_len(pad + (ceiling(sum(parts) / rows))))
 
   } else {
 
-    if (choose_font("FontAwesome", quiet=TRUE) == "") {
+    if (choose_font("Font Awesome 5 Free Regular", quiet=TRUE) == "") {
       stop("FontAwesome not found. Install via: https://github.com/FortAwesome/Font-Awesome/tree/master/fonts",
            call.=FALSE)
     }
